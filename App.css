@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mainview{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.Card{
+  margin-left: .5rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 17rem;
+  border-radius: .4rem;
+  padding: 1rem;
+}
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.second-row{
+  margin: .5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.third-row{
+  margin: .5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.fourth-row{
+  margin: .5rem;
+  display: flex;
+  flex-direction: row;
+}
